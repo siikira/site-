@@ -7,6 +7,7 @@ body {
     font-family: "NeutralFace";
     font-family: "Gogol";
     background-image: url("../image/background.png");
+    margin: 0px;
 }
 
 @font-face {
@@ -64,7 +65,7 @@ header {
     font-size: 30px;
     color: #E5E3E3;
     margin: 0 auto;
-    width: 1440px;
+    width: 1200px;
     padding-top:30px;
 }
 
@@ -83,11 +84,15 @@ a {
     display: flex;
     align-items: center;
     margin: 200px;
+    margin-left: 350px;
+  margin-right: 350px;
 }
 
 .about {
     display: inline-block;
     justify-content: center;
+    margin-left: 200px;
+  margin-right: 200px;
 }
 
 p {
@@ -95,6 +100,8 @@ p {
     text-align: left;
     font-size: 30px;
     color: white;
+    margin-left: 200px;
+  margin-right: 200px;
 }
 
 .text2 {
@@ -123,5 +130,6 @@ p {
 .gif {
     display: flex;
     justify-content: space-between;
-    margin: 30px 30px;
+    margin-left: 200px;
+  margin-right: 200px;
 }
